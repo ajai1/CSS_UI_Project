@@ -1,13 +1,4 @@
 
-* {
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
 #product-overview {
     background: url("./images/main/Free02.jpeg");
     width: 100%;
@@ -64,26 +55,6 @@ body{
 
 }
 
-.button {
-    background: #0e4f1f;
-    color: white;
-    border: 1.5px #0e4f1f solid;
-    font: inherit;
-    font-weight: bold;
-    border-radius: 8px;
-    padding: 8px;
-}
-
-.button:hover,
-.button:active {
-    background: white;
-    color: #0e4f1f;
-}
-
-.button:focus {
-    outline: none;
-}
-
 
 .section-header {
     color: #2ddf5c;
@@ -128,98 +99,4 @@ body{
     color: white;
     font-size: 20px;
     text-align: center;
-}
-
-.main-header {
-    background: #2ddf5c;
-    padding: 8px 16px;
-    width: 100%;
-}
-
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.main-brand {
-    font-weight: bold;
-    color: #0e4f1f;
-    font-size: 26px;
-    text-decoration: none;    
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 70px);
-    vertical-align: middle;
-}
-
-.main-nav__items {
-    padding: 0;
-    margin: 0;
-}
-
-.main-nav__item {
-    display: inline-block;
-    margin: 0px 20px;
-    
-    
-}
-
-.main-nav__item a {
-    text-decoration: none;
-    color: #0e4f1f;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 2px 0;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-    color: white;
-    border-bottom: 2px solid white;
-}
-
-.main-nav__item--cta a {
-    color: white;
-    background: #ff1b68;
-    border-radius: 8px;
-    padding: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-    color: #ff1b68;
-    background: white;
-    border: none;
-}
-
-
-.main-footer {
-    background: black;
-    padding: 32px;
-    margin-top: 48px;
-}
-
-.main-footer__links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.main-footer__link {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.main-footer__link a {
-    text-decoration: none;
-    color: white;
-}
-
-.main-footer__link a:hover,
-.main-footer__link a:active {
-    color: #ccc;
 }
