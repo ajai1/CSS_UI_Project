@@ -11,6 +11,11 @@
     color: white;
 }
 
+.plans__list {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
 
 .plan {
     background: #d2ffdf;
