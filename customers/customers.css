@@ -12,19 +12,32 @@
     margin-top: 96px;
   }
   
+
+  .testimonial__image-container {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .testimonial__image {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+
   .testimonial__info {
     text-align: right;
     padding: 14px;
     display: inline-block;
     vertical-align: middle;
+    width: 30%;
   }
   
-  #customer-1.testimonial {
-    text-align: right;
-  }
+ 
 
   #customer-2.testimonial {
-    text-align: left;
+    text-align: right;
   }
   
   #customer-2 .testimonial__info {
